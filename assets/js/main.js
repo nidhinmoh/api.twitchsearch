@@ -66,7 +66,7 @@ function search() {
                         "<li>Channel name:"+obj.streams[i].channel.name+"</li>"+
                         "<li>URL:<a href='"+obj.streams[i].channel.url+"'>"+obj.streams[i].channel.url+"</a></li>"+
                         "<li>Created at:"+obj.streams[i].channel.created_at+"</li>"+
-                        "<li>Last updated at:"+obj.streams[i].channel.views+"</li>"+
+                        "<li>Last updated at:"+obj.streams[i].channel.updated_at+"</li>"+
                         "</ul>";
                 }
                 if(txt != ""){
